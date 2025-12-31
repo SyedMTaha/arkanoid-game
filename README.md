@@ -1,73 +1,80 @@
-# 🕹️ Arkanoid Game (C++ | SFML)
+# 🎮 Arkanoid Game (C++ | DSA)
 
-A classic **Arkanoid / Brick Breaker** game developed in **C++** using **SFML**, applying core **Data Structures & Programming concepts**.
+A classic **Arkanoid / Brick Breaker** game developed in **C++** using **Data Structures & Algorithms** concepts and the **SFML library**.  
+This project focuses on game logic, collision handling, and real-time rendering.
 
-![Gameplay Preview](assets/arkanoid-gameplay.gif)
+---
+
+## 🕹️ Gameplay Demo
+
+![Arkanoid Gameplay](assets/arkanoid-demo.gif)
 
 ---
 
 ## 🚀 Features
-- Smooth paddle & ball movement
+- Smooth paddle and ball movement
 - Brick collision detection
-- Score-based gameplay
-- Classic Arkanoid mechanics
-- SFML-based graphics rendering
-
----
-
-## 🧠 Concepts Used
-- Object-Oriented Programming (OOP)
-- Data Structures & Algorithms
-- Event handling
-- Collision detection
-- Game loop logic
+- Score tracking
+- Real-time rendering using SFML
+- Object-oriented and DSA-based logic
 
 ---
 
 ## 🛠️ Tech Stack
 - **Language:** C++
-- **Graphics Library:** SFML 2.4.2
-- **Compiler:** Dev-C++
+- **Library:** SFML 2.4.2
+- **Concepts:** DSA, OOP, Collision Detection
+- **Compiler:** Dev C++
 
 ---
 
-## ⚙️ Setup Guide (Dev-C++)
+## ⚙️ Setup & Run Guide (Dev C++)
 
-### Steps to Run the Game:
+### 📌 Follow these steps carefully:
 
-1. Download **Dev-C++ Compiler**
+1. Install **Dev C++ Compiler**
 2. Download **SFML 2.4.2** from:  
-   https://www.sfml-dev.org/download/sfml/2.4.2/  
-   Select:  
-   **GCC 4.9.2 TDM (SJLJ) – 64-bit**  
-   Extract it in **C Drive**
+   👉 https://www.sfml-dev.org/download/sfml/2.4.2/  
+   - Choose: **GCC 4.9.2 TDM (SJLJ) – 64-bit**
+   - Extract it in **C Drive**
+3. Open **Dev C++ → Create New Project**
+4. Go to **Project Options → Parameters**
+   - Add this in **Linker**:
+     ```
+     -lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window
+     ```
+5. Go to **Directories**
+   - Add SFML `lib` path in **Library Directories**
+   - Add SFML `include` path in **Include Directories**
+6. Open SFML → `bin` folder  
+   - Copy all files
+   - Paste them into your project folder
+7. Copy the source code into `main.cpp`
+8. Place all images in the **same folder** as the executable
+9. Click **Rebuild All → Run**
 
-3. Open Dev-C++ → Create New Project  
-   Go to **Project Options → Parameters → Linker**  
-   Add:
+🎉 **Enjoy playing Arkanoid!**
 
-4. Go to **Directories**:
-- Add SFML `lib` path in **Library Directories**
-- Add SFML `include` path in **Include Directories**
-
-5. Open SFML → `bin` folder  
-Copy all files and paste them into your **project directory**
-
-6. Copy the main C++ code into the project  
-Extract images and place them in the **same directory**
-
-7. Click **Rebuild All**, then **Run**
-
-🎉 Enjoy the Arkanoid Game!
+⚠️ **Important:**  
+All images and SFML files must be in the same directory, otherwise the game will not run.
 
 ---
 
-⚠️ **Important Reminder:**  
-All images, binaries, and files must be in the **same directory**, otherwise the game will not run correctly.
+## 📚 Learning Outcomes
+- Practical implementation of DSA concepts
+- Game loop and event handling
+- Collision detection logic
+- Memory and resource management in C++
 
 ---
 
 ## 👨‍💻 Author
+
 **Syed Muhammad Taha**  
-Software Engineering Student  
-UI/UX • Front-End • C++ Developer
+Software Engineer | UI/UX Designer | Front-End Developer  
+
+🔗 LinkedIn: https://linkedin.com/in/-syedmtaha-
+
+---
+
+⭐ If you like this project, consider giving it a star!
