@@ -7,7 +7,7 @@ This project focuses on game logic, collision handling, and real-time rendering.
 
 ## 🕹️ Gameplay Demo
 
-![Arkanoid Gameplay](assets/arkanoid-demo.gif)
+![Arkanoid Gameplay](/gameplay.gif)
 
 ---
 
