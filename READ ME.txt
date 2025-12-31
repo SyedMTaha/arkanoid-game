@@ -1,0 +1,12 @@
+				---This is the Process to run the Arkanoid Game on Dev C++ Compiler---
+
+1. Download DEV C++ compiler on your setup
+2. Download SFML 2.4.2 from the link given (https://www.sfml-dev.org/download/sfml/2.4.2/), download this version GCC 4.9.2 TDM (SJLJ) - 64-bit, download it in C drive.
+3. Open DEV compiler, create new project, go to project option, go to parameters add this in linker (-lsfml-audio -lsfml-graphics -lsfml-system -lsfml-window), go to directories, add the path of the library in the library directories, then add the path of include in the include directories 
+4. Open SFML folder from C drive open BIN folder copy all the files, paste it where you have saved your project that you have created.
+5. Copy the code present in the main file, paste it there, extract the pictures and save it in the same folder
+6. Rebuild all and then run it, Enjoy ARKANOID GAME. 
+			----HAPPY CODING----😊
+
+
+	!!!---Reminder, the location of the pictures and all the files should be same other wise the code will not execute---!!!
